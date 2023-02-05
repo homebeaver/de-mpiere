@@ -13,6 +13,7 @@
  *****************************************************************************/
 package org.compiere.jr.report;
 
+import java.awt.print.PrinterJob;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -46,7 +47,10 @@ import java.util.logging.Level;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import java.awt.print.PrinterJob;
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
+import javax.print.attribute.standard.Copies;
+import javax.print.attribute.standard.JobName;
 
 import org.adempiere.core.domains.models.X_AD_PInstance_Para;
 import org.adempiere.exceptions.AdempiereException;
@@ -58,6 +62,7 @@ import org.compiere.model.MAttachmentEntry;
 import org.compiere.model.MProcess;
 import org.compiere.model.PrintInfo;
 import org.compiere.print.MPrintFormat;
+import org.compiere.print.PrintUtil;
 import org.compiere.print.ServerReportCtl; //360-->ReportCtl; 370, trunk-->ServerReportCtl
 import org.compiere.process.ClientProcess;
 import org.compiere.process.ProcessCall;
@@ -73,11 +78,6 @@ import org.compiere.util.Trx;
 import org.compiere.util.Util;
 import org.spin.util.PrinterUtil;
 
-import javax.print.attribute.HashPrintRequestAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.standard.Copies;
-import javax.print.attribute.standard.JobName;
-import org.compiere.print.PrintUtil;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JRExporterParameter;
 import net.sf.jasperreports.engine.JRParameter;
@@ -85,12 +85,11 @@ import net.sf.jasperreports.engine.JasperCompileManager;
 import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.engine.JasperPrintManager;
 import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.export.JRPrintServiceExporter;
 import net.sf.jasperreports.engine.export.JRPrintServiceExporterParameter;
 import net.sf.jasperreports.engine.util.JRLoader;
-
-import net.sf.jasperreports.engine.JasperPrintManager;
 
 /**
  * @author rlemeill
