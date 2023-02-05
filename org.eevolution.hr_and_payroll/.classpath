@@ -3,11 +3,14 @@
 	<classpathentry kind="src" path="src/main/java/base"/>
 	<classpathentry kind="src" path="src/main/java/ui/zk"/>
 	<classpathentry kind="src" path="src/main/java/ui/swing"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/base"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/zkwebui"/>
 	<classpathentry kind="lib" path="/zkwebui/WEB-INF/lib/zkmax.jar" sourcepath="/zkwebui/WEB-INF/lib/zkmax-sources.jar"/>
-	<classpathentry kind="lib" path="/tools/lib/iText-2.1.7.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/client"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.project"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.request"/>

@@ -3,10 +3,13 @@
 	<classpathentry kind="src" path="src/main/server"/>
 	<classpathentry kind="src" path="src/main/servlet"/>
 	<classpathentry kind="src" path="src/main/ejb"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="/tools"/>
 	<classpathentry kind="src" path="/base"/>
-	<classpathentry kind="lib" path="/jboss/client/jbossall-client.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/activemq-core-5.7.0.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/cron4j-2.2.1.jar"/>
 	<classpathentry kind="src" path="/serverApps"/>
