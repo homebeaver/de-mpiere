@@ -46,8 +46,9 @@ public class SilentSetup {
 			System.setProperty("ant.home", ".");
 			String[] 	args = new String[] {"setup"};
 		//	Launcher.main (args);	//	calls System.exit
-			Main antMain = new Main();
-			antMain.startAnt(args, null, null);
+//			Main antMain = new Main();
+//			antMain.startAnt(args, null, null);
+			org.apache.tools.ant.Main.main(args);
 		}
 		catch (Exception e)
 		{
