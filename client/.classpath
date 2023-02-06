@@ -15,16 +15,22 @@
 	<classpathentry kind="lib" path="/tools/lib/groovy-all-2.4.15.jar" sourcepath="/tools/lib/testing/groovy-all-2.4.15-sources.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.adempiere.project-jars"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/org.adempiere.request-jars"/>
-	<classpathentry kind="lib" path="/tools/lib/postgresql.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/vavr-1.0.0-alpha-4.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/looks-2.0.4.jar"/>
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-6.17.0.jar"/>
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-fonts-6.17.0.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/oracle.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.request"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.project"/>
-	<classpathentry kind="src" path="/tools"/>
+	<classpathentry kind="lib" path="/tools/lib/postgresql-42.4.3.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/harness-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/icepdf-core-6.2.2.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/icepdf-viewer-6.2.2.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/miglayout-3.7.1-swing.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/jnlp.jar"/>
 	<classpathentry kind="src" path="/base"/>
+	<classpathentry kind="src" path="/tools"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.project"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.adempiere.request"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/JasperReports"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>

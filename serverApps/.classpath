@@ -23,5 +23,7 @@
 	<classpathentry kind="lib" path="/tools/lib/javax.jms-api-2.0.1.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/javax.servlet-api-4.0.1.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/standard.jar"/>
 	<classpathentry kind="output" path="build/war"/>
 </classpath>

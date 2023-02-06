@@ -36,5 +36,6 @@
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-6.17.0.jar"/>
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-fonts-6.17.0.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/byte-buddy-1.12.19.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/harness-1.0.0.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>

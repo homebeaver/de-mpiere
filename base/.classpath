@@ -28,11 +28,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
-	<classpathentry kind="lib" path="/tools/lib/postgresql.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/tools/lib/oracle.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
@@ -96,5 +91,14 @@
 	<classpathentry kind="lib" path="/tools/lib/aws-java-sdk-core-1.11.795.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/aws-java-sdk-kms-1.11.795.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/aws-java-sdk-s3-1.11.795.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/postgresql-42.4.3.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/commons-validator-1.7.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/mail.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/zxing-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/payflow.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/Verisign.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/sardine-5.9-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>

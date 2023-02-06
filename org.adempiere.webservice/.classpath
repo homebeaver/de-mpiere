@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/xfire-all-1.2.6.jar" sourcepath="WEB-INF/lib/xfire-all-1.2.6-sources.jar"/>
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-6.17.0.jar"/>
 	<classpathentry kind="lib" path="/JasperReportsTools/lib/jasperreports-fonts-6.17.0.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/commons-codec-1.10.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
