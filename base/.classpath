@@ -100,5 +100,7 @@
 	<classpathentry kind="lib" path="/tools/lib/payflow.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/Verisign.jar"/>
 	<classpathentry kind="lib" path="/tools/lib/sardine-5.9-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="/tools/lib/slf4j-simple-1.7.36.jar"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>
